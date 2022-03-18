@@ -1,4 +1,5 @@
-﻿#pragma warning(desable: 4326) //убирает ошибки
+﻿//Git check
+#pragma warning(desable: 4326) //убирает ошибки
 #include<iostream>
 using namespace std; 
 #define UPPER_LEFT_ANGLE char(218)
