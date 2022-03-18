@@ -1,4 +1,4 @@
-#pragma warning(desable: 4326) //убирает ошибки
+п»ї#pragma warning(desable: 4326) //СѓР±РёСЂР°РµС‚ РѕС€РёР±РєРё
 #include<iostream>
 using namespace std; 
 #define UPPER_LEFT_ANGLE char(218)
@@ -9,14 +9,14 @@ using namespace std;
 #define VERTICAL_LINE (char)179
 #define BLACK_BOX "  "
 #define WHITE_BOX "\xDB\xDB"
-//\x-позволяет вкл.ASCII-символ в строковую константу
-//после \х обязательно идёт 16-ичный код символа (Нех-код) 
+//\x-РїРѕР·РІРѕР»СЏРµС‚ РІРєР».ASCII-СЃРёРјРІРѕР» РІ СЃС‚СЂРѕРєРѕРІСѓСЋ РєРѕРЅСЃС‚Р°РЅС‚Сѓ
+//РїРѕСЃР»Рµ \С… РѕР±СЏР·Р°С‚РµР»СЊРЅРѕ РёРґС‘С‚ 16-РёС‡РЅС‹Р№ РєРѕРґ СЃРёРјРІРѕР»Р° (РќРµС…-РєРѕРґ) 
 //#define WHITE_BOX (char)219<<(char)219
 void main()
 {
-	setlocale(LC_ALL, "С");
+	setlocale(LC_ALL, "РЎ");
 	int n;
-	cout << "Введите размер фигуры: "; cin>>n;
+	cout << "Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ С„РёРіСѓСЂС‹: "; cin>>n;
 	/*for (int i = 0; i < 256; i++) {
 		cout << i << "\t" << (char)i << endl;
 	}*/
